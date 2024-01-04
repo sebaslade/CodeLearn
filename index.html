@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodeLearn - Cursos que potenciaran tu habilidades!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link href="lib/bootstrap-icons-1.10.4/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header id="main-header">
+    <div class="container">
+      <h1><a href="/">CodeLearn</a></h1>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-dark" data-bs-theme="dark">
+    <div class="container">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu-item-quienes">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu-item-proveedores">Proveedores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu-item-empleados">Empleados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu-item-clientes">Clientes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu-item-directores">Directores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu-item-tienda">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu-item-marcas">Marcas</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu-item-carrito"><i class="bi bi-basket"></i> Cesta de compras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu-item-login"><i class="bi bi-person-fill"></i> Iniciar sesión</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-dark" data-bs-theme="dark">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a class="navbar-brand" href="#"><i class="bi bi-hexagon-fill"></i></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu-main">
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/banner_1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Formando Estudiantes de Calidad!</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+            <a class="btn btn-success" href="#" role="button">Más información</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner_2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tenemos las últimas tecnologías!</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner_3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Los mejores enseñando!</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <section id="nosotros" class="padded">
+      <div class="container">
+        <i class="bi bi-circle-half" id="cambiarFondo"></i>
+        <h2>¿Quiénes somos?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati doloremque amet tenetur facere illum
+          perspiciatis impedit. Doloremque eligendi unde blanditiis fugiat officiis eveniet sequi earum qui harum nemo
+          consectetur dolorem, commodi quos id corporis libero praesentium cum ratione suscipit sed nesciunt! Voluptatum
+          ducimus accusamus maiores perferendis amet eum. Aperiam libero voluptatum iure totam quaerat voluptates ad
+          veniam at aliquid similique odit, modi quam iste dolor quasi cupiditate cum provident. Maiores sunt pariatur
+          similique nesciunt aspernatur molestias cupiditate consectetur, aut labore voluptatum placeat tenetur iste
+          magnam non soluta. Animi labore possimus nulla a! Iusto, repudiandae incidunt? Illum alias quia quis, eos
+          incidunt earum molestiae dolore voluptate doloremque dolores, quam sapiente minima sequi aut quo, aperiam
+          porro.
+          Assumenda quo sequi exercitationem!</p>
+      </div><!--container-->
+    </section><!-- nosotros-->
+
+    <aside id="aviso" class="padded">
+      <div class="container">
+        <p class="display-2">Nueva<br><span class="texto-importante">Carrera</span> en<br>CodeLearn<br>
+          Y mas de<br>10 Cursos<br>
+          en desarrollo</p>
+      </div><!--container-->
+    </aside><!-- nosotros-->
+
+    <section id="noticias" class="padded">
+      <div class="container">
+        <h2>Carreras</h2>
+        <div class="row">
+          <!-- .col*3>h3{Noticia $}+p*2>lorem48 -->
+          <div class="col-lg">
+            <figure>
+              <img src="images/carreras_1.jpg" class="img-fluid" alt="">
+            </figure>
+            <h3>Ingeniería de Software</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem hic laborum! Culpa quod illo
+              rerum magnam nam, architecto alias consequuntur a autem voluptatum voluptatibus consectetur, dolorem
+              tempore. Mollitia, in. Accusantium delectus totam ratione, saepe harum, officiis explicabo, ipsa eaque
+              necessitatibus perspiciatis eligendi. Quibusdam vitae aliquid laborum totam!</p>
+            <p>Reprehenderit vel fugiat quos sint ipsam dicta architecto libero, sequi ea omnis accusantium fuga facere
+              assumenda voluptas quis, incidunt tempore dolorem error vitae aut nobis ipsum dolores delectus odio?
+              Minus,
+              fugit? Veniam, velit tempore voluptatum suscipit quisquam pariatur maxime, sequi sit omnis earum
+              cupiditate!
+              Facilis voluptatibus dignissimos alias!</p>
+          </div>
+          <div class="col-lg">
+            <figure>
+              <img src="images/carreras_2.jpg" class="img-fluid" alt="">
+            </figure>
+            <h3>Ingeniería de Sistemas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aperiam odit numquam? Totam earum vel
+              laudantium labore maxime veniam optio, soluta porro vitae ipsa placeat dolorum ratione atque natus rem
+              qui.
+              Doloremque provident cum reprehenderit iusto quia ipsam deserunt, adipisci dignissimos, dolores odio
+              distinctio quae debitis veniam esse?</p>
+            <p>Dolorum corporis enim distinctio quam exercitationem quas numquam aliquam, blanditiis eius veritatis sint
+              quo quasi? Adipisci molestias fuga optio eum quaerat cumque eveniet perferendis, accusantium earum rerum
+              nam
+              iure ratione! Dolorem aut fugiat cumque molestias, ea, at, minus qui saepe sit corporis molestiae fuga
+              neque
+              fugit nisi iure?</p>
+          </div>
+          <div class="col-lg">
+            <figure>
+              <img src="images/carreras_3.jpg" class="img-fluid" alt="">
+            </figure>
+            <h3>Ingeniería en Redes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veritatis eius pariatur ipsum, quae
+              libero
+              sed explicabo, tempora fugiat, dolore similique voluptate vero voluptatum iusto error! Quidem iusto,
+              consequatur excepturi tempora voluptatum quo aperiam eius corrupti nostrum eveniet numquam saepe nam at
+              minima, voluptatibus accusamus dolore! Deserunt, dignissimos.</p>
+            <p>Ipsum doloremque saepe vel facere unde provident eveniet temporibus ipsa nam iusto, praesentium in natus
+              sunt laudantium quae rem veritatis totam cupiditate eum! Eligendi nisi cum temporibus veniam doloremque
+              neque expedita perferendis similique omnis deserunt quasi dolore ad dolorem aspernatur, soluta ut. Illum
+              qui
+              praesentium rerum molestiae iure?</p>
+          </div>
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- noticias -->
+
+    <!-- section#historia>.container>h2{Historia}+p>lorem120 -->
+    <section id="historia" class="padded">
+      <div class="container">
+        <h2>Historia Educativa</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit delectus impedit vitae, alias omnis corporis
+          ea
+          sed iste nesciunt, repudiandae exercitationem. Facilis aperiam magnam veniam magni nulla omnis ea eligendi
+          natus
+          quaerat ipsam impedit, qui illum dolore quasi excepturi sequi ab placeat soluta. Ipsa fugit laboriosam,
+          nostrum,
+          dolor nobis, distinctio harum porro tempora error nulla cum expedita qui voluptas vitae necessitatibus
+          possimus?
+          Voluptatem eligendi ut molestiae aperiam. Eaque inventore dolore quisquam ipsa vitae atque quam libero quas
+          nam
+          enim, exercitationem natus. Impedit omnis, minus non mollitia pariatur aliquid sequi, repellendus sit a
+          dolores
+          esse obcaecati enim earum, delectus laudantium dolorum culpa minima quasi facilis modi maiores temporibus quia
+          quis nulla. Velit ad commodi asperiores autem eaque eos incidunt inventore harum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus velit quam commodi atque laudantium
+          rem ipsa. Tempora amet veritatis iusto dicta libero distinctio a nulla. Aut veritatis blanditiis officiis iste
+          dolore earum dolor sunt magni error nesciunt delectus laborum vitae sequi ipsam, expedita dolorum ad odit,
+          alias
+          temporibus perferendis excepturi quidem voluptas veniam? Deserunt, nesciunt similique voluptatibus quis
+          soluta,
+          iste qui, aperiam ex temporibus a commodi minus labore nobis ipsum ipsa quos laborum porro voluptas
+          accusantium?
+          Provident nostrum repudiandae rerum asperiores, est voluptatum quasi illo iusto, odit facere fuga excepturi
+          omnis voluptatem numquam ut mollitia doloremque quod quisquam quas necessitatibus ipsa. Amet, minima debitis
+          impedit labore, vero nisi autem hic molestias itaque, inventore laboriosam magnam unde sed iste vitae soluta.
+          In, qui ab odit quaerat accusantium perspiciatis?</p>
+      </div>
+    </section>
+
+    <section id="conferencia">
+      <div class="container">
+        <div class="row">
+          <figure class="col-lg-8 imagen-leyenda">
+            <img src="images/conferencia.jpg" alt="" class="img-fluid">
+            <figcaption class="alinear-vertical-inferior">
+              <h3>Nuevas Tecnologías</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, debitis voluptas autem assumenda
+                ducimus
+                vel dolore.</p>
+            </figcaption>
+          </figure>
+          <article class="col-lg-4 align-self-center">
+            <h2>Conferencia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi tempora porro soluta possimus
+              magnam, rerum eveniet quos beatae eligendi molestiae omnis modi, quae deserunt, pariatur dolor? Nesciunt,
+              pariatur. Perferendis, dolor dignissimos!</p>
+          </article>
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- conferencia -->
+
+
+    <section id="eventos" class="padded">
+      <div class="container">
+        <h2>Cursos en desarrollo</h2>
+        <div class="row">
+          <!-- .col*4>h3{Evento $}+p>lorem64 -->
+          <div class="col-xl col-md-6">
+            <h3>Machine Learning</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos incidunt praesentium, suscipit enim quasi
+              fugiat nulla ea provident voluptatum illum. Molestias quae officia mollitia veniam eaque aliquid adipisci,
+              debitis exercitationem fugiat saepe vitae id, eum dolorem iure commodi! Eveniet, quasi eligendi! Magnam
+              provident tenetur atque, soluta fugiat corporis voluptates veniam ipsa accusantium quas consequatur cum
+              earum possimus vero necessitatibus? Veritatis ea culpa nam delectus.</p>
+          </div>
+          <div class="col-xl col-md-6">
+            <h3>Deep Learning</h3>
+            <p>Ipsa rerum dolores iste maiores quia, illum, eligendi, sunt impedit pariatur doloribus autem tempore
+              ratione voluptates tempora corporis nulla soluta optio hic et voluptate blanditiis architecto! Voluptate
+              sunt nesciunt necessitatibus obcaecati molestiae, odit voluptatibus cum maiores minus quam laudantium.
+              Repudiandae tempora voluptatibus eum facilis aliquam dignissimos libero, assumenda, qui magni earum
+              asperiores inventore accusamus at voluptas porro doloremque animi laborum quasi veritatis ut nostrum.</p>
+          </div>
+          <div class="col-xl col-md-6">
+            <h3>Redes de Seguridad</h3>
+            <p>Explicabo deleniti quisquam excepturi, similique voluptatem, fugiat necessitatibus consequatur sequi
+              sint,
+              quasi neque quae! Autem magni corrupti nobis recusandae ipsam quaerat commodi nemo eaque laudantium
+              eveniet
+              doloremque placeat, omnis ipsum expedita corporis accusantium qui nihil non quisquam ullam voluptatum
+              impedit. Minus nulla rerum fugit eos, magni amet! Sint quod, iure, consequuntur iusto ducimus et
+              excepturi,
+              illum praesentium enim totam expedita doloribus. Sunt, inventore distinctio!</p>
+          </div>
+          <div class="col-xl col-md-6">
+            <h3>Diseño grafico</h3>
+            <p>Recusandae eaque ipsam ab mollitia repudiandae amet, harum aliquam itaque ipsum excepturi ullam
+              exercitationem, quis accusantium inventore illum voluptatem sapiente nesciunt eum! Aut voluptatem illo
+              vitae
+              mollitia, neque, corporis commodi reiciendis nesciunt earum nam et fugiat quaerat consequuntur! Sit
+              explicabo ex fuga iure amet! Eveniet recusandae eligendi, odio maiores vitae, vel, minus aut pariatur
+              voluptates facere veniam quisquam ad! Animi vel dignissimos aspernatur voluptate.</p>
+          </div>
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- eventos -->
+
+    <section id="valores" class="padded">
+      <div class="container">
+        <h2><span>Habilidades</span></h2>
+        <div class="row justify-content-center">
+          <!-- .col*5>h3{Valor $}+p>lorem12 -->
+          <article class="col-xl col-md-4 col-6">
+            <i class="bi bi-balloon"></i>
+            <h3>Respeto</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore nobis deserunt.</p>
+          </article>
+          <article class="col-xl col-md-4 col-6">
+            <i class="bi bi-bookmarks"></i>
+            <h3>Trabajo en equipo!</h3>
+            <p>Porro, nobis ipsum dolorem quasi amet ex repellat consectetur cumque deleniti aliquam.</p>
+          </article>
+          <article class="col-xl col-md-4 col-6">
+            <i class="bi bi-car-front"></i>
+            <h3>Resiliencia</h3>
+            <p>Deserunt aliquid debitis eligendi culpa sunt sit tempore incidunt nostrum tenetur! Accusantium.</p>
+          </article>
+          <article class="col-xl col-md-4 col-6">
+            <i class="bi bi-clock"></i>
+            <h3>Liderazgo</h3>
+            <p>Commodi suscipit possimus distinctio dicta facilis est voluptate vel laboriosam pariatur nobis.</p>
+          </article>
+          <article class="col-xl col-md-4 col-6">
+            <i class="bi bi-cloud-lightning"></i>
+            <h3>Buena Comunicación!</h3>
+            <p>Accusantium impedit pariatur beatae tempora ex fugit magni ut recusandae iusto porro!</p>
+          </article>
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- valores -->
+
+    <aside id="anuncio" class="padded">
+      <div class="container">
+        <p class="display-2">ChatGPT<br>desata la<br>fiebre inversionista
+          <br>en inteligencia<br> artificial
+        </p>
+      </div><!--container-->
+    </aside><!-- nosotros-->
+
+
+
+    <section id="galeria" class="padded">
+      <div class="container">
+        <h2>Cursos adicionales</h2>
+        <div class="row g-0">
+          <!-- figure*12.col-2>img[src=colaboradores/clarkkent.jpg].img-fluid -->
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/aws.jpg" alt="" class="img-fluid"
+              title="Curso de Amazon Web Services"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/database.jpg" alt=""
+              class="img-fluid" title="Curso de Base de Datos"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/datanalysis.jpg" alt=""
+              class="img-fluid" title="Curso de Analisis de Datos"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/js.jpg" alt="" class="img-fluid"
+              title="Curso de JavaScript"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/kotlin.jpg" alt=""
+              class="img-fluid" title="Curso de Kotlin"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/office.jpg" alt=""
+              class="img-fluid" title="Curso de Office 365"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/photoshop.jpg" alt=""
+              class="img-fluid" title="Curso de Photoshop"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/php.jpg" alt="" class="img-fluid"
+              title="Curso de PHP"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/python.jpg" alt=""
+              class="img-fluid" title="Curso de Python"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/R.jpg" alt="" class="img-fluid"
+              title="Curso de lenguaje R"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/react.jpg" alt=""
+              class="img-fluid" title="Curso de React"></figure>
+          <figure class="col-xxl-2 col-xl-3 col-lg-4 col-sm-6"><img src="colaboradores/ts.jpg" alt="" class="img-fluid"
+              title="Curso de TypeScript"></figure>
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- galeria -->
+
+    <section id="oficinas" class="padded">
+      <div class="container">
+        <h2>Oficinas</h2>
+        <div class="row">
+          <div class="col-md-2">
+            <ul class="list-group" id="oficinas-lista">
+              <li class="list-group-item" archivo="arequipa.html">Arequipa</li>
+              <li class="list-group-item" archivo="trujillo.html">Trujillo</li>
+              <li class="list-group-item" archivo="bogota.html">Bogotá</li>
+              <li class="list-group-item" archivo="lima.html">Lima</li>
+              <li class="list-group-item" archivo="montevideo.html">Montevideo</li>
+              <li class="list-group-item" archivo="madrid.html">Madrid</li>
+            </ul>
+          </div>
+          <div class="col-md-10" id="oficinas-contenido">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cursos" class="padded">
+      <div class="container">
+        <h2>Experiencias</h2>
+        <div class="row">
+          <article class="col-xl-6">
+            <!-- .col*3>h3{Curso $}+p*2>lorem36 -->
+            <div>
+              <h3>Steve Torres</h3>
+              <h5>Ingeniero de Software</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem minima pariatur nesciunt ut
+                dicta culpa error libero voluptatibus, perferendis animi voluptates sint omnis consequatur architecto
+                veritatis recusandae nemo, numquam autem esse eum. Dolorem omnis assumenda, sapiente voluptate adipisci,
+                ipsa rem quo, in mollitia pariatur deleniti qui tempora aut.</p>
+              <p>Iste illo esse tenetur sit, ipsa quisquam minima nemo harum magnam, quos pariatur at magni. Adipisci
+                nobis voluptate necessitatibus sit. Dolores, ea totam! Molestias non, repudiandae ea maiores illo
+                asperiores animi inventore esse similique eveniet voluptate, pariatur excepturi cum rerum id, velit
+                accusamus! Deleniti, ratione? Perspiciatis, harum rerum?</p>
+              <p>Error eaque beatae illum velit. Officiis, fugiat minima incidunt tenetur quaerat odit! Sit provident
+                corrupti esse eaque, dolorum sequi eos nulla natus rem, nisi ab cupiditate, repellendus dignissimos
+                facere
+                itaque id cum nobis perferendis. Architecto aut doloremque ullam. Officiis nam atque nisi itaque illo
+                excepturi! Pariatur, nesciunt nostrum?</p>
+            </div>
+          </article>
+          <article class="col-lg">
+            <div class="col-lg">
+              <div class="col-md">
+                <h3>Michael Stones</h3>
+                <h5>Desarrallodor de Videojuegos</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quia sunt mollitia quis
+                  perspiciatis
+                  repellendus aliquid consectetur porro sint nihil recusandae qui, tempore nostrum alias molestiae, eum
+                  corrupti et eaque error! Excepturi fugit minus quisquam quod!</p>
+                <p>Fugit, nam architecto sequi asperiores corrupti eaque ipsam illo unde debitis. Ipsa, adipisci
+                  dolores?
+                  Ratione, suscipit ad. Qui alias, soluta recusandae laborum ex dicta perferendis eligendi repellat
+                  ducimus quod asperiores neque. At sequi dolorum tempora cum.</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md">
+            <div>
+              <h3>Philip Ramsey</h3>
+              <h5>Analista de Datos</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, cupiditate. Debitis adipisci
+                nostrum quos blanditiis sed recusandae nobis similique earum libero eius cupiditate accusantium quidem
+                iure soluta, nisi et laudantium. Deleniti libero hic corporis praesentium molestias.</p>
+              <p>Ratione autem dignissimos iste dolorum ipsa et consectetur, earum eos ullam pariatur minima harum.
+                Optio
+                minus, incidunt, quam eos rem similique asperiores praesentium sed velit deserunt sunt voluptatem
+                suscipit
+                corrupti minima inventore amet architecto obcaecati sint.</p>
+            </div>
+          </article>
+
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- cursos -->
+
+    <section id="envios" class="padded">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Empresa de envío</h2>
+          </div>
+          <div class="col">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Código</th>
+                  <th>Nombre</th>
+                  <th>Teléfono</th>
+                </tr>
+              </thead>
+              <tbody id="tbody-envios">
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="videos" class="padded">
+      <div class="container">
+        <h2>Videos</h2>
+        <div class="row">
+          <div class="col-md">
+            <div class="ratio ratio-16x9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/SzJ46YA_RaA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ratio ratio-16x9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/9agVDZtUWIw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- videos -->
+  </main><!--main content-->
+  
+  <footer id="main-footer">
+    <div class="container">
+      2023 - Todos los derechos reservados
+    </div>
+  </footer>
+
+  <a href="#" id="ir-arriba"><i class="bi bi-chevron-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="lib/jquery-3.6.4.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<section class="padded">
+    <div class="container">
+        <h2>Directores</h2>
+        <div class="mb-2">
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#insertModal">Agregar director</button>
+        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Código</th>
+                <th>Nombres</th>
+                <th>Películas</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="tbody-directores">
+
+            </tbody>
+          </table>
+    </div>
+</section>
+
+<div class="modal fade" id="insertModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Nuevo Director</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form id="formInsert">
+                <div class="modal-body">
+                    <div class="mb-2">
+                        <input type="text" class="form-control" name="nombres" placeholder="Nombres" required minlength="2" maxlength="100">
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" class="form-control" name="peliculas" placeholder="Películas" required minlength="2" maxlength="100">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Actualizar Director</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form id="formUpdate">
+                <div class="modal-body">
+                    <div class="mb-2">
+                        <input type="text" class="form-control" name="iddirector" readonly>
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" class="form-control" name="nombres" placeholder="Nombres" required minlength="2" maxlength="100">
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" class="form-control" name="peliculas" placeholder="Películas" required minlength="2" maxlength="100">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">Actualizar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminar Director</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form id="formDelete">
+                <div class="modal-body">
+                    <input type="hidden" name="iddirector">
+                    ¿Está seguro que desea eliminar a <span id="nombreDirectorEliminar"></span>?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Eliminar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
